@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://quantifold.com/static/73fd3a763f01dbe5ad6947d5ec88e5cb/945a8/quantifold-blog-hero-programming.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    position: fixed;
+    align-items: center;
+    color: white;
+    background-color: rgb(109, 99, 99);
+    width: 100%;
+    gap: 30PX;
+    padding-left: 30px;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    /* width: 300px; */
+    height: 320px;
+    justify-content: space-around !important;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.card{
+    margin: 1rem;
+    width: 150px;
+    height:180px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(2, 2, 2);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
+  .card1{
+    margin: 1rem;
+    width: 150px;
+    height:180px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info1{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(0, 0, 0);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info1{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
+  .card2{
+    margin: 1rem;
+    width: 150px;
+    height:180px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info2{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(0, 0, 0);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info2{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
+  .card3{
+    margin: 1rem;
+    width: 150px;
+    height:180px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info3{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(0, 0, 0);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info3{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
+  /*                                             SEECOND LINE */
+  .card4{
+    margin: 1rem;
+    width: 150px;
+    height:180px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info4{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(2, 2, 2);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info4{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
+  .card5{
+    margin: 1rem;
+    width: 150px;
+    border-radius: 10px;
+    height:180px;
+    overflow: hidden;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info5{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(2, 2, 2);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info5{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
+  .card6{
+    margin: 1rem;
+    border-radius: 10px;
+    width: 150px;
+    height:180px;
+    overflow: hidden;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info6{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(2, 2, 2);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info6{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
+  .card7{
+    margin: 1rem;
+    width: 150px;
+    height:180px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: url(sirahmed.jfif) no-repeat center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  
+    .card-info7{
+      color:hsl(0, 0%, 90%);
+      text-align: center;
+  
+  
+      h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: scale(2);
+        opacity: 0;
+        transition: 0.5s;
+       color: rgb(2, 2, 2);
+      }
+       p{
+        font-size: 16px;
+        padding-top: 15px;
+        transform: scale(1.2);
+        opacity: 0;
+        transition: 0.4s;
+        color: rgb(0, 0, 0);
+  
+       }
+    }
+    &:hover  .card-info7{
+      h2{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      p{
+        opacity: 0.8;
+        transform: scale(1);
+      }
+    }
+  }
